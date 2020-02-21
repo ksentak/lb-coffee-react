@@ -1,1 +1,1 @@
-# lb-coffee-react
+# Liberty Beans - React
