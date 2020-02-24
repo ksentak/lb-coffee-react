@@ -1,13 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Home from "./pages/Home"
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Navbar/>
-      <h1>Hello World!</h1>
+      <Home/>
     </div>
   );
 }
