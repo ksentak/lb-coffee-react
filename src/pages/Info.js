@@ -29,7 +29,7 @@ class Info extends Component {
                       Monday
                       <span className="ml-auto">5:00 AM to 8:00 PM</span>
                     </li>
-                    <li class="list-unstyled-item list-hours-item d-flex">
+                    <li className="list-unstyled-item list-hours-item d-flex">
                       Tuesday
                       <span className="ml-auto">5:00 AM to 8:00 PM</span>
                     </li>
@@ -52,13 +52,11 @@ class Info extends Component {
                   </ul>
                   <p className="address mb-5">
                     <em>
-                      <strong>1000 Market St</strong>
-                      <p>Philadelphia, PA</p>
+                      <strong>1000 Market St</strong> Philadelphia, PA
                     </em>
                   </p>
                   <p className="mb-0">
-                    <small><em>Call Anytime</em></small>
-                    <p>(215) 888-8888</p>
+                    <small><em>Call Anytime</em></small> (215) 888-8888
                   </p>
                 </div>
               </div>
