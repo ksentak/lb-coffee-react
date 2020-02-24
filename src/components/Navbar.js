@@ -15,16 +15,17 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item px-lg-4">
-                <NavLink to="/" className="nav-link text-uppercase text-expanded" activeClassName="nav-item active">Home</NavLink>
+                <NavLink exact to="/" className="nav-link text-uppercase text-expanded" 
+                activeClassName="activeLink">Home</NavLink>
               </li>
               <li className="nav-item px-lg-4">
-                <NavLink to="/about" className="nav-link text-uppercase text-expanded">About</NavLink>
+                <NavLink exact to="/about" className="nav-link text-uppercase text-expanded" activeClassName="activeLink">About</NavLink>
               </li>
               <li className="nav-item px-lg-4">
-                <NavLink to="/products" className="nav-link text-uppercase text-expanded">Products</NavLink>
+                <NavLink exact to="/products" className="nav-link text-uppercase text-expanded" activeClassName="activeLink">Products</NavLink>
               </li>
               <li className="nav-item px-lg-4">
-                <NavLink to="/info" className="nav-link text-uppercase text-expanded">Info</NavLink>
+                <NavLink exact to="/info" className="nav-link text-uppercase text-expanded" activeClassName="activeLink">Info</NavLink>
               </li>
             </ul>
           </div>
